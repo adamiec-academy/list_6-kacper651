@@ -27,9 +27,9 @@ def are_assignments_correct(previous_assignments, new_assignments):
     return True
 
 
-coders = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']
-previous_assignments = {'A': 'B', 'B': 'C', 'C': 'D', 'D': 'E', 'E': 'F', 'F': 'G', 'G': 'H', 'H': 'I', 'I': 'J', 'J': 'A'}
-new_assignments = generate_assignments(previous_assignments, coders)
-print(new_assignments)
-new_assignments2 = generate_assignments(new_assignments, coders)
-print(new_assignments2)
+# coders = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']
+# previous_assignments = {'A': 'B', 'B': 'C', 'C': 'D', 'D': 'E', 'E': 'F', 'F': 'G', 'G': 'H', 'H': 'I', 'I': 'J', 'J': 'A'}
+# new_assignments = generate_assignments(previous_assignments, coders)
+# print(new_assignments)
+# new_assignments2 = generate_assignments(new_assignments, coders)
+# print(new_assignments2)
