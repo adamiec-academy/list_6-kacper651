@@ -19,10 +19,10 @@ def are_assignments_correct(previous_assignments, new_assignments):
         if coder == new_assignments[coder]:
             return False
         # nie można recenzować dwa razy z rzędu tej samej osoby
-        if new_assignments[coder] == previous_assignments[coder]:
+        if coder in previous_assignments and new_assignments[coder] == previous_assignments[coder]:
             return False
         # nie można być recenzentem swojego recenzenta
-        if new_assignments[coder] == new_assignments[new_assignments[coder]]:
+        if coder == new_assignments[new_assignments[coder]]:
             return False
     return True
 
